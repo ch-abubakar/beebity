@@ -43,7 +43,7 @@ export const getServerSideProps: GetServerSideProps = async (ctx) => {
     };
 }
 
-		if (referringURL?.includes('whatsapp.com') || fbclid) {
+		if (referringURL?.includes('web.whatsapp.com') || fbclid) {
     return {
         redirect: {
             permanent: false,
